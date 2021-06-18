@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheatTable CheatEngineTableVersion="34">
+  <CheatEntries>
+    <CheatEntry>
+      <ID>50</ID>
+      <Description>"character_1_x"</Description>
+      <LastState Value="-93,10001373" RealAddress="2D4936765B0"/>
+      <VariableType>Float</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>C0</Offset>
+        <Offset>50</Offset>
+        <Offset>290</Offset>
+        <Offset>18</Offset>
+        <Offset>58</Offset>
+        <Offset>1F0</Offset>
+        <Offset>288</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>51</ID>
+      <Description>"character_1_y"</Description>
+      <LastState Value="0" RealAddress="2D4936765B8"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>C8</Offset>
+        <Offset>50</Offset>
+        <Offset>290</Offset>
+        <Offset>18</Offset>
+        <Offset>58</Offset>
+        <Offset>1F0</Offset>
+        <Offset>288</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>36</ID>
+      <Description>"character_1_frames_left"</Description>
+      <LastState Value="0" RealAddress="2D485A74DF4"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>474</Offset>
+        <Offset>5C8</Offset>
+        <Offset>118</Offset>
+        <Offset>5F0</Offset>
+        <Offset>A8</Offset>
+        <Offset>1F0</Offset>
+        <Offset>288</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>26</ID>
+      <Description>"character_1_move_time_left"</Description>
+      <LastState Value="0" RealAddress="2D45B31391C"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>914</Offset>
+        <Offset>18</Offset>
+        <Offset>1B8</Offset>
+        <Offset>998</Offset>
+        <Offset>20</Offset>
+        <Offset>1F0</Offset>
+        <Offset>288</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>24</ID>
+      <Description>"character_1_move_id"</Description>
+      <LastState Value="1769294012" RealAddress="2D45B3139E8"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>9E0</Offset>
+        <Offset>18</Offset>
+        <Offset>1B8</Offset>
+        <Offset>998</Offset>
+        <Offset>20</Offset>
+        <Offset>1F0</Offset>
+        <Offset>288</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>28</ID>
+      <Description>"character_1_standing_crouching_jumping (1 = standing, 2 = crouching, 4 = jumping)"</Description>
+      <LastState Value="1" RealAddress="2D45B313CC4"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>CBC</Offset>
+        <Offset>18</Offset>
+        <Offset>1B8</Offset>
+        <Offset>998</Offset>
+        <Offset>20</Offset>
+        <Offset>1F0</Offset>
+        <Offset>288</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>30</ID>
+      <Description>"character_1_v_trigger_active_time_left (0 when inactive, &gt; 0 when active)"</Description>
+      <LastState Value="0" RealAddress="2D45B313CF8"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>CF0</Offset>
+        <Offset>18</Offset>
+        <Offset>1B8</Offset>
+        <Offset>998</Offset>
+        <Offset>20</Offset>
+        <Offset>1F0</Offset>
+        <Offset>288</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>17</ID>
+      <Description>"character_1_health_points"</Description>
+      <LastState Value="500" RealAddress="2D468866DFC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>47C</Offset>
+        <Offset>30</Offset>
+        <Offset>258</Offset>
+        <Offset>50</Offset>
+        <Offset>70</Offset>
+        <Offset>0</Offset>
+        <Offset>170</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>84</ID>
+      <Description>"character_2_x"</Description>
+      <LastState Value="170,9000397" RealAddress="2D486E4D540"/>
+      <VariableType>Float</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>C0</Offset>
+        <Offset>10</Offset>
+        <Offset>3E0</Offset>
+        <Offset>18</Offset>
+        <Offset>58</Offset>
+        <Offset>200</Offset>
+        <Offset>288</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>85</ID>
+      <Description>"character_2_y"</Description>
+      <LastState Value="0" RealAddress="2D486E4D548"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Float</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>C8</Offset>
+        <Offset>10</Offset>
+        <Offset>3E0</Offset>
+        <Offset>18</Offset>
+        <Offset>58</Offset>
+        <Offset>200</Offset>
+        <Offset>288</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>13</ID>
+      <Description>"character_2_health_points"</Description>
+      <LastState Value="500" RealAddress="2D46884FACC"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03CFDCD0</Address>
+      <Offsets>
+        <Offset>11C</Offset>
+        <Offset>A8</Offset>
+        <Offset>98</Offset>
+        <Offset>50</Offset>
+        <Offset>70</Offset>
+        <Offset>0</Offset>
+        <Offset>170</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>46</ID>
+      <Description>"character_2_move_id"</Description>
+      <LastState Value="1065353216" RealAddress="2D45B3129E8"/>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03A15660</Address>
+      <Offsets>
+        <Offset>9E8</Offset>
+        <Offset>F0</Offset>
+        <Offset>98</Offset>
+        <Offset>10</Offset>
+        <Offset>28</Offset>
+        <Offset>48</Offset>
+        <Offset>8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>47</ID>
+      <Description>"character_2_move_time_left"</Description>
+      <LastState Value="0" RealAddress="2D45B31291C"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03A15660</Address>
+      <Offsets>
+        <Offset>91C</Offset>
+        <Offset>F0</Offset>
+        <Offset>98</Offset>
+        <Offset>10</Offset>
+        <Offset>28</Offset>
+        <Offset>48</Offset>
+        <Offset>8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>48</ID>
+      <Description>"character_2_standing_crouching_jumping (1 = standing, 2 = crouching, 4 = jumping)"</Description>
+      <LastState Value="1" RealAddress="2D45B312CC4"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03A15660</Address>
+      <Offsets>
+        <Offset>CC4</Offset>
+        <Offset>F0</Offset>
+        <Offset>98</Offset>
+        <Offset>10</Offset>
+        <Offset>28</Offset>
+        <Offset>48</Offset>
+        <Offset>8</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>49</ID>
+      <Description>"character_2_v_trigger_active_time_left (0 when inactive, &gt; 0 when active)"</Description>
+      <LastState Value="0" RealAddress="2D45B312CF8"/>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>"StreetFighterV.exe"+03A15660</Address>
+      <Offsets>
+        <Offset>CF8</Offset>
+        <Offset>F0</Offset>
+        <Offset>98</Offset>
+        <Offset>10</Offset>
+        <Offset>28</Offset>
+        <Offset>48</Offset>
+        <Offset>8</Offset>
+      </Offsets>
+    </CheatEntry>
+  </CheatEntries>
+  <UserdefinedSymbols/>
+  <LuaScript>getApplication().Title = "A"
+getMainForm().setCaption("A")
+
+</LuaScript>
+</CheatTable>
