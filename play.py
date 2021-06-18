@@ -59,48 +59,49 @@ class Rect(Structure):
     ]
 
 
-model = load_model(r'D:\model_5')
-key_pressing = KeyPressing()
-release_keys(key_pressing)
+if __name__ == '__main__':
+    model = load_model(r'D:\model_5')
+    key_pressing = KeyPressing()
+    release_keys(key_pressing)
 
-with mss() as screenshotter:
-    hwnd = cdll.user32.FindWindowW(None, 'StreetFighterV')
-    rect = Rect()
-    succeeded = cdll.user32.GetWindowRect(hwnd, pointer(rect))
-    title_bar_height = 32
-    padding_left = 8
-    padding_right = 8
-    padding_bottom = 9
-    window = {
-        'left': rect.left + padding_left,
-        'top': rect.top + title_bar_height,
-        'width': rect.right - rect.left - padding_left - padding_right,
-        'height': rect.bottom - rect.top - title_bar_height - padding_bottom,
-    }
-    while True:
-        # RGB
-        screenshot = screenshotter.grab(window)
-        frame = np.array(screenshot.pixels, dtype=np.uint8)
-        frame = cv.resize(frame, (VIDEO_WIDTH, VIDEO_HEIGHT))
-        frame = np.array(frame, dtype=np.float32)
-        frame /= 255.0
-        frame = np.pad(
-            frame,
-            (
-                (0, VIDEO_WIDTH - frame.shape[0]),
-                (0, VIDEO_WIDTH - frame.shape[1]),
-                (0, 0)
-            ),
-            'constant',
-            constant_values=0
-        )
-        frames = np.array([frame], dtype=np.float32)
-        # action = model.predict(frames)[0]
-        action = model(frames).numpy()[0]
-        action[action > 0.5] = 1
-        action[action <= 0.5] = 0
-        # action = [0] * (BUTTONS_COUNT * BUTTON_STATES_COUNT)
-        # action[0] = 1
-        # action = np.array(action)
-        print('action', action)
-        do_action(key_pressing, action)
+    with mss() as screenshotter:
+        hwnd = cdll.user32.FindWindowW(None, 'StreetFighterV')
+        rect = Rect()
+        succeeded = cdll.user32.GetWindowRect(hwnd, pointer(rect))
+        title_bar_height = 32
+        padding_left = 8
+        padding_right = 8
+        padding_bottom = 9
+        window = {
+            'left': rect.left + padding_left,
+            'top': rect.top + title_bar_height,
+            'width': rect.right - rect.left - padding_left - padding_right,
+            'height': rect.bottom - rect.top - title_bar_height - padding_bottom,
+        }
+        while True:
+            # RGB
+            screenshot = screenshotter.grab(window)
+            frame = np.array(screenshot.pixels, dtype=np.uint8)
+            frame = cv.resize(frame, (VIDEO_WIDTH, VIDEO_HEIGHT))
+            frame = np.array(frame, dtype=np.float32)
+            frame /= 255.0
+            frame = np.pad(
+                frame,
+                (
+                    (0, VIDEO_WIDTH - frame.shape[0]),
+                    (0, VIDEO_WIDTH - frame.shape[1]),
+                    (0, 0)
+                ),
+                'constant',
+                constant_values=0
+            )
+            frames = np.array([frame], dtype=np.float32)
+            # action = model.predict(frames)[0]
+            action = model(frames).numpy()[0]
+            action[action > 0.5] = 1
+            action[action <= 0.5] = 0
+            # action = [0] * (BUTTONS_COUNT * BUTTON_STATES_COUNT)
+            # action[0] = 1
+            # action = np.array(action)
+            print('action', action)
+            do_action(key_pressing, action)
