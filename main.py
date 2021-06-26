@@ -47,11 +47,11 @@ class Environment:
         }
 
     def do_action(self, action):
-        if self.is_done():
-            raise AssertionError(
-                '"do_action" was called when environment was done. ' +
-                'Please make sure to reset the environment first.'
-            )
+        # if self.is_done():
+        #     raise AssertionError(
+        #         '"do_action" was called when environment was done. ' +
+        #         'Please make sure to reset the environment first.'
+        #     )
         while windll.user32.GetForegroundWindow() != self.hwnd:
             time.sleep(1)
 
@@ -544,7 +544,8 @@ if __name__ == '__main__':
     environment = Environment()
     a = A()
     try:
-        # a.explore(environment, database, 100000)
+        pass
+        # a.explore(environment, database, 2000000)
         # print('explored states: ' + str(len(database.state_to_explored_actions)))
         #
         # save_database(database)
@@ -553,17 +554,17 @@ if __name__ == '__main__':
         # path_to_outcome = a.evaluate(environment, database, determine_metric_value)
         # print(path_to_outcome)
 
-        while True:
-            state = database.query_closest_state_with_explored_actions(environment.get_state())
-            # state = environment.get_state()
-            actions = database.query_explored_actions(state)
-            if len(actions) >= 1:
-                action = max(
-                    actions,
-                    key=lambda action: determine_metric_value(database.query_state(state, action))
-                )
-                environment.do_action(action)
-                print(action.name)
+        # while True:
+        #     # state = database.query_closest_state_with_explored_actions(environment.get_state())
+        #     state = environment.get_state()
+        #     actions = database.query_explored_actions(state)
+        #     if len(actions) >= 1:
+        #         action = max(
+        #             actions,
+        #             key=lambda action: determine_metric_value(database.query_state(state, action))
+        #         )
+        #         environment.do_action(action)
+        #         print(action.name)
     except KeyboardInterrupt:
         print('Interrupted')
 
