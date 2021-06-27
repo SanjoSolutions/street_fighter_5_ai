@@ -3,3 +3,5 @@ actions*.txt
 frame_data_ryu.html
 frame_data_ryu_files
 cheat_engine/pointer_scans
+dopamine_runs/*
+!dopamine_runs/.gitkeep

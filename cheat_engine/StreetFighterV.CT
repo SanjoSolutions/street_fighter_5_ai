@@ -4,7 +4,7 @@
     <CheatEntry>
       <ID>50</ID>
       <Description>"character_1_x"</Description>
-      <LastState Value="-150" RealAddress="2D4936765B0"/>
+      <LastState Value="-752.3096924" RealAddress="19911825B10"/>
       <VariableType>Float</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
       <Offsets>
@@ -20,7 +20,7 @@
     <CheatEntry>
       <ID>51</ID>
       <Description>"character_1_y"</Description>
-      <LastState Value="0" RealAddress="2D4936765B8"/>
+      <LastState Value="0" RealAddress="19911825B18"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
@@ -37,7 +37,7 @@
     <CheatEntry>
       <ID>36</ID>
       <Description>"character_1_frames_left"</Description>
-      <LastState Value="0" RealAddress="2D485A74DF4"/>
+      <LastState Value="4294967295" RealAddress="198F0062E74"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
       <Offsets>
@@ -53,7 +53,7 @@
     <CheatEntry>
       <ID>26</ID>
       <Description>"character_1_move_time_left"</Description>
-      <LastState Value="0" RealAddress="2D45B31391C"/>
+      <LastState Value="65536000" RealAddress="198A3AD991C"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
@@ -70,7 +70,7 @@
     <CheatEntry>
       <ID>24</ID>
       <Description>"character_1_move_id"</Description>
-      <LastState Value="5122" RealAddress="2D45B3139E8"/>
+      <LastState Value="1028" RealAddress="198A3AD99E8"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
       <Offsets>
@@ -86,7 +86,7 @@
     <CheatEntry>
       <ID>28</ID>
       <Description>"character_1_standing_crouching_jumping (1 = standing, 2 = crouching, 4 = jumping)"</Description>
-      <LastState Value="1" RealAddress="2D45B313CC4"/>
+      <LastState Value="4" RealAddress="198A3AD9CC4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
@@ -103,7 +103,7 @@
     <CheatEntry>
       <ID>88</ID>
       <Description>"character_1_critical_art_bar"</Description>
-      <LastState Value="900" RealAddress="2D45B313CEC"/>
+      <LastState Value="276" RealAddress="198A3AD9CEC"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
@@ -120,7 +120,7 @@
     <CheatEntry>
       <ID>90</ID>
       <Description>"character_1_v_bar"</Description>
-      <LastState Value="600" RealAddress="2D45B313CF4"/>
+      <LastState Value="600" RealAddress="198A3AD9CF4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
@@ -137,7 +137,7 @@
     <CheatEntry>
       <ID>30</ID>
       <Description>"character_1_v_trigger_active_time_left (0 when inactive, &gt; 0 when active)"</Description>
-      <LastState Value="0" RealAddress="2D45B313CF8"/>
+      <LastState Value="0" RealAddress="198A3AD9CF8"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
@@ -154,7 +154,7 @@
     <CheatEntry>
       <ID>17</ID>
       <Description>"character_1_health_points"</Description>
-      <LastState Value="500" RealAddress="2D468866DFC"/>
+      <LastState Value="0" RealAddress="19906B26DFC"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
       <Offsets>
@@ -170,7 +170,7 @@
     <CheatEntry>
       <ID>84</ID>
       <Description>"character_2_x"</Description>
-      <LastState Value="149,999588" RealAddress="2D486E4D540"/>
+      <LastState Value="-581.8488159" RealAddress="1990B8CB560"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
@@ -187,7 +187,7 @@
     <CheatEntry>
       <ID>85</ID>
       <Description>"character_2_y"</Description>
-      <LastState Value="0" RealAddress="2D486E4D548"/>
+      <LastState Value="0" RealAddress="1990B8CB568"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
@@ -204,7 +204,7 @@
     <CheatEntry>
       <ID>47</ID>
       <Description>"character_2_move_time_left"</Description>
-      <LastState Value="0" RealAddress="2D45B31291C"/>
+      <LastState Value="1703936" RealAddress="198A3AD891C"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03A15660</Address>
@@ -221,7 +221,7 @@
     <CheatEntry>
       <ID>46</ID>
       <Description>"character_2_move_id"</Description>
-      <LastState Value="128" RealAddress="2D45B3129E8"/>
+      <LastState Value="17412" RealAddress="198A3AD89E8"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03A15660</Address>
       <Offsets>
@@ -237,7 +237,7 @@
     <CheatEntry>
       <ID>48</ID>
       <Description>"character_2_standing_crouching_jumping (1 = standing, 2 = crouching, 4 = jumping)"</Description>
-      <LastState Value="1" RealAddress="2D45B312CC4"/>
+      <LastState Value="3" RealAddress="198A3AD8CC4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03A15660</Address>
@@ -254,7 +254,7 @@
     <CheatEntry>
       <ID>89</ID>
       <Description>"character_2_critical_art_bar"</Description>
-      <LastState Value="900" RealAddress="2D45B312CEC"/>
+      <LastState Value="518" RealAddress="198A3AD8CEC"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03A15660</Address>
@@ -271,7 +271,7 @@
     <CheatEntry>
       <ID>91</ID>
       <Description>"character_2_v_bar"</Description>
-      <LastState Value="0" RealAddress="2D45B312CF4"/>
+      <LastState Value="0" RealAddress="198A3AD8CF4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03A15660</Address>
@@ -288,7 +288,7 @@
     <CheatEntry>
       <ID>49</ID>
       <Description>"character_2_v_trigger_active_time_left (0 when inactive, &gt; 0 when active)"</Description>
-      <LastState Value="303" RealAddress="2D45B312CF8"/>
+      <LastState Value="0" RealAddress="198A3AD8CF8"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03A15660</Address>
@@ -305,7 +305,7 @@
     <CheatEntry>
       <ID>13</ID>
       <Description>"character_2_health_points"</Description>
-      <LastState Value="500" RealAddress="2D46884FACC"/>
+      <LastState Value="500" RealAddress="19906AEFACC"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"StreetFighterV.exe"+03CFDCD0</Address>
       <Offsets>
@@ -317,6 +317,188 @@
         <Offset>0</Offset>
         <Offset>170</Offset>
       </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>92</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-728.8748169" RealAddress="198B78C80E0"/>
+      <VariableType>Float</VariableType>
+      <Address>198B78C80E0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>93</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-728.8748169" RealAddress="198B8D550E0"/>
+      <VariableType>Float</VariableType>
+      <Address>198B8D550E0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>94</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-398.7457886" RealAddress="199052F6890"/>
+      <VariableType>Float</VariableType>
+      <Address>199052F6890</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>95</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-398.09375" RealAddress="199052F68D0"/>
+      <VariableType>Float</VariableType>
+      <Address>199052F68D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>96</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="199052F6AD0"/>
+      <VariableType>Float</VariableType>
+      <Address>199052F6AD0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>97</ID>
+      <Description>"No description"</Description>
+      <LastState Value="0" RealAddress="199052F6B10"/>
+      <VariableType>Float</VariableType>
+      <Address>199052F6B10</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>101</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-21.12175751" RealAddress="19919034DCC"/>
+      <VariableType>Float</VariableType>
+      <Address>19919034DCC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>102</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-21.12175751" RealAddress="19919034E50"/>
+      <VariableType>Float</VariableType>
+      <Address>19919034E50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>103</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-21.12175751" RealAddress="19919034F50"/>
+      <VariableType>Float</VariableType>
+      <Address>19919034F50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>116</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-21.12175751" RealAddress="19919037D4C"/>
+      <VariableType>Float</VariableType>
+      <Address>19919037D4C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>117</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-21.12175751" RealAddress="19919037DD0"/>
+      <VariableType>Float</VariableType>
+      <Address>19919037DD0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>118</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-21.12175751" RealAddress="19919037ED0"/>
+      <VariableType>Float</VariableType>
+      <Address>19919037ED0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>119</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-726.5671997" RealAddress="19919039DCC"/>
+      <VariableType>Float</VariableType>
+      <Address>19919039DCC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>120</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-726.5671997" RealAddress="19919039E50"/>
+      <VariableType>Float</VariableType>
+      <Address>19919039E50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>121</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-726.5671997" RealAddress="19919039F50"/>
+      <VariableType>Float</VariableType>
+      <Address>19919039F50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>122</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-144.4012451" RealAddress="1991903A2CC"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903A2CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>123</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-144.4012451" RealAddress="1991903A350"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903A350</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>124</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-144.4012451" RealAddress="1991903A450"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903A450</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>125</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-726.5671997" RealAddress="1991903B6CC"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903B6CC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>126</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-726.5671997" RealAddress="1991903B750"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903B750</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>127</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-726.5671997" RealAddress="1991903B850"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903B850</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>128</ID>
+      <Description>"No description"</Description>
+      <LastState Value="87.03636169" RealAddress="1991903C34C"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903C34C</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>129</ID>
+      <Description>"No description"</Description>
+      <LastState Value="87.03636169" RealAddress="1991903C3D0"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903C3D0</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>134</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-694.453125" RealAddress="1991903FCCC"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903FCCC</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>135</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-694.453125" RealAddress="1991903FD50"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903FD50</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>136</ID>
+      <Description>"No description"</Description>
+      <LastState Value="-694.453125" RealAddress="1991903FE50"/>
+      <VariableType>Float</VariableType>
+      <Address>1991903FE50</Address>
     </CheatEntry>
   </CheatEntries>
   <UserdefinedSymbols/>
